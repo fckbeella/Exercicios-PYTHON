@@ -1,0 +1,7 @@
+n = input('Digite uma frase: ').lower()
+a = n.count('a')
+a1 = n.find('a')
+a2 = n.rfind('a')
+print(f'A quantidade de letra "A" na frase é: {a}')
+print(f'Em que posição a letra "A" aparece 1º: {a1}')
+print(f'Em que posição a letra "A" aparece por ultimo: {a2}')
